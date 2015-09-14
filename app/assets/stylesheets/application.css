@@ -11,11 +11,5 @@
  * file per style scope.
  *
  *= require_tree .
- *= require icomoon
- *= main
- *= animate
- *= foundation
- *= foundation.min
- *= normalize
  *= require_self
  */

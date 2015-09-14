@@ -11,23 +11,4 @@
 // about supported directives.
 //
 //= require jquery
-//= require jquery_ujs
-//= require turbolinks
-//= require turbolinks
-//= require foundation.abide
-//= require foundation.clearing
-//= require foundation.dropdown
-//= require foundation.equalizer
-//= require foundation.interchange
-//= require foundation.offcanvas
-//= require foundation.reveal
-//= require foundation.slider
-//= require foundation.tab
-//= require foundation
-//= require foundation.min
-//= require foundation.alert
-//= require fastclick
-//= require modernizr
-//= require plugins
-//= require scripts
 //= require_tree .

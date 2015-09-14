@@ -1,167 +1,251 @@
+<!doctype html>
+ <html class="no-js" lang="pt"> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+        <style type="text/css">
+          body {
+            background-color: rgba(237,239,241,1);
+          }
+          .logo {
+            margin: 1rem auto;
+          }
+          .title {
+            color: #5db400;
+            font-size: 20px;
+            margin: 2rem 0 1rem 0;
+          }
+          .subtitle {
+            color: rgb(85, 85, 85);
+            font-size: 18px;
+          }
+          .plan {
+            max-width: 730px;
+            margin: 2rem auto;
+          }
+          .card-block {
+            background-color: #fff;
+          }
+          .card-block-1 {
+            border-radius: 5px 0 0 5px;
+          }
+          .card-block-2 {
+            border-radius: 0;
+          }
+          .card-block-3 {
+            border-radius: 0 5px 5px 0;
+          }
+          .card-active {
+            background-color: #2196DD;
+            color: #fff;
+          }
+          .card-title {
+            font-size: 18px;
+            font-weight: bold;
+          }
+          .card-price {
+            font-size: 22px;
+            display: block;
+            margin: 2rem auto;
+          }
+          .btn-orange {
+            background-color: rgba(235,90,52,1);
+            border-color: rgba(235,90,52,1);
+            font-size: 14px;
+            border-radius: 5px;
+          }
+          .btn-green {
+            background-color: rgba(80,171,0,1);
+            border-color: rgba(80,171,0,1);
+            border-radius: 5px;
+          }
+          .testimonies {
+            margin: 2rem auto;
+            max-width: 720px;
+          }
+          .testimonies .card {
+            width: 30%;
+            background-color: #fff;
+            border-radius: 5px;
+          }
+          .testimonies .card-block {
+            position: relative;
+            background-color: #fff;
+            z-index: 10;
+            border-radius: 5px;
+          }
+          .testimonies .card-text {
+            font-size: 20px;
+            display: block;
+            padding: 2rem 0;
+          }
+          .card-user-img {
+            border-radius: 50%;
+            z-index: 12;
+            border: 2px solid #fff;
+          }
+          .card-user {
+            z-index: 15;
+            margin-top: -35px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            top: 100%;
+          }
+          .footer-msg {
+            margin-top: 8rem;
+          }
+          .footer-msg-1 {
+            font-size: 20px;
+            margin: 0;
+          }
+
+          .footer-msg-2 {
+            font-size: 20px;
+            font-weight: bold;
+          }
+          @media screen and (max-width: 480px) {
+            .card {
+              width: 100% !important;
+              display: block !important;
+            }
+            .testimonies .card {
+              width: 100%;
+              background-color: #fff;
+              border-radius: 5px;
+              margin-bottom: 7rem;
+            }
+          }
+        </style>
+    </head>
+    <body class="container">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    
+      <div class="row text-center">
+        <img class="logo center-block" src="http://i1309.photobucket.com/albums/s635/tarefasimple/Colegio-brasil-gnerico_zpsw2qjmoov.png" alt="">
+        <h2 class="title">Ten a tu lado un profesor de matemáticas SIEMPRE que lo necesites.</h2>
+        <h3 class="subtitle">ÚLTIMA SEMANA de promoción</h3>
+      </div>
 
 
-		<div class="bgImage">
-			<div class="topBar row">
-				<!-- Logo Image Start -->
-				<div id="logo" class="small-12 medium-6 columns">
-					<!-- Replace the src with path to your logo image -->
-					<a href="http://www.tarefa.co/"> <img src="http://i1309.photobucket.com/albums/s635/tarefasimple/img-promo_zpswqxz38gh.png" alt="Com dúvidas em matemática?"></a>
-					</a>
-				</div>
-				<!-- Logo Image End -->
+      <div class="plan text-center">
 
-				<!-- Social Media Buttons Start -->
-				<!-- <div class="socialButtons small-12 medium-6 columns">
-					<ul><li><a href="https://www.facebook.com/tarefabrasil"><span class="icon-facebook"></span></a></li>
-						<li><a href="https://www.twitter.com/tarefabrasil"><span class="icon-twitter"></span></a></li>
-						
-					</ul>
-				</div> -->
-				<!-- Social Media Buttons End -->
-			</div>
-	
-			<div class="hero row clearfix">
-			<header class="clearfix">
-				<!-- Product or E-book image start -->
-			
-				<!-- Product or E-book image End -->
-
-				<div class="small-12 medium-7 large-7 columns clearfix">
-					<h1>Un profesor de matemáticas siempre y cuando más lo necesitas.</h1>
-		
-					<p>Con Tarefa tienes la posibilidad de responder todas tus preguntas de matemáticas en cualquier momento: 24 horas al día, 7 días a la semana. Solamente debes de ingresar a Tarefa, escribir tu pregunta y en pocos minutos vas a recibir una respuesta a tu pregunta especifica y explicada paso a paso.
-					 </p>
- 			<h2>No gastes dinero en clases particulares!</h2> 
-					<!-- Watch Video Button Start -->
-					<!-- <button class="watchVideo left" data-reveal-id="videoModal" data-closeonbackgroundclick="true"><span class="icon-play4 left"></span>Ver Video</button> -->
-					<!-- Watch Video Button End -->
-
-					<!-- Video PopUp Start -->
-					<div id="videoModal" class="reveal-modal large" data-reveal>
-
-						<div class="flex-video widescreen vimeo" style="display: block;">
-							<!-- Video Embedded Code Start -->
-							<iframe width="1280" height="720" src="http://www.youtube-nocookie.com/embed/wnXCopXXblE?rel=0" frameborder="0" allowfullscreen="" data-src="http://www.youtube-nocookie.com/embed/wnXCopXXblE?rel=0"></iframe>
-							<!-- Video Embedded Code End -->
-						</div>
-
-					  <a class="close-reveal-modal">&#215;</a>
-					</div>
-					<!-- Video PopUp End -->
-
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <div class="card-group">
+          <div class="card">
+            <div class="card-block card-block-1">
+              <h4 class="card-title">Crédito tarefa</h4>
+              <span class="card-price">USD$ 6.99</span>
+              <p class="card-text">Recibe 6 respuestas. Tranquilo! El crédito Tarefa no se vence.</p>
+              <p class="card-text"></p>
+              <a><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="A7MG6ANMAM73E">
-<input type="image" src="http://i1309.photobucket.com/albums/s635/tarefasimple/boton-2-es_zps8qhmueex.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<input type="hidden" name="hosted_button_id" value="T975UBLCUSDGS">
+<input type="image" src="http://i1309.photobucket.com/albums/s635/tarefasimple/BTN-NOVO_zpspdcyz41p.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form></a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-block card-block-2">
+              <h4 class="card-title">Plan mensual</h4>
+              <span class="card-price">USD$ 14.99/mes</span>
+              <p class="card-text">Use Tarefa por un mes y haga todas las preguntas que quieras</p>
+              <p class="card-text"></p>
+              <a ><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="75R86EXURK8FS">
+<input type="image" src="http://i1309.photobucket.com/albums/s635/tarefasimple/BTN-NOVO_zpspdcyz41p.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
-				</div>
-			</header>		
-			</div>
-		</div>
-
-		
-
-		<!-- Pricing Tables Section Start -->
-		<div class="pricingTables">
-			<div class="row" data-equalizer>
-
-				<div class="small-12 medium-4 large-4 columns">
-					<div class="pricing" data-equalizer-watch>
-						<div class="planName">
-							<h3>Plan básico!</h3>
-						</div>
-						<div class="planPrice">
-							<p>USD &#36; 6.99</p>
-						</div>
-						<div class="planDetails">
-							<p>6 respuestas</p>
-							<p></p>
-						</div>
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+</a>
+            </div>
+          </div>
+          <div class="card card-active">
+            <div class="card-block card-active card-block-3">
+              <h4 class="card-title">Plan Trimestral</h4>
+              <span class="card-price">USD$ 29.99</span>
+              <p class="card-text">Ahorre dinero usando Tarefa por 3 meses y haga preguntas de manera ilimitada!</p>
+              <p class="card-text"></p>
+              <a href="#" ><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="N2MJ58ZNJV2TE">
-<input type="image" src="http://i1309.photobucket.com/albums/s635/tarefasimple/hola_zps5vdgrfoa.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<input type="hidden" name="hosted_button_id" value="VG9BKR2Y2RCL6">
+<input type="image" src="http://i1309.photobucket.com/albums/s635/tarefasimple/BTN-NOVO-2_zps5rksvbo3.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
+</a>
+            </div>
+          </div>
+        </div>
 
-					</div>
-				</div>
+      </div>
 
-				<div class="small-12 medium-4 large-4 columns">
-					<div class="pricing" data-equalizer-watch>
-						<div class="planName">
-							<h3>Ser experto en matemáticas :)</h3>
-						</div>
-						<div class="planPriceAlt carrot">
-							<p> USD &#36; 9.99 / mes</p>
-						</div>
-						<div class="planDetails">
-							<p>Obtenga respuestas cuando quiera!<br/> Ayuda ilimitada y acceso total por <br/>3 mes <br/> </p>
-						</div>
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="A7MG6ANMAM73E">
-<input type="image" src="http://i1309.photobucket.com/albums/s635/tarefasimple/boton-2-es_zps8qhmueex.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
+      <div class="testimonies text-center">
+        
+        <div class="card-deck-wrapper">
+          <div class="card-deck">
+            <div class="card">
+              <div class="card-block">
+                <p class="card-text">“ Con Tarefa puedo hacer todas las preguntas que no alcanzó hacer en el salón de clases.”</p>
+              </div>
+              <div class="card-user">
+                <img class="card-user-img" src="http://d9hhrg4mnvzow.cloudfront.net/enem.tarefa.co/pag-ok/a65fc087-ala-carte-testimonial-profile_01y01y01y01y000000.png">
+                <h4 class="card-title">Antonio</h4>
+                <h6>Barcelona</h6>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-block">
+                <p class="card-text">“Las respuesta son muy buenas siempre cuando yo las necesito.”</p>
+              </div>
+              <div class="card-user">
+                <img class="card-user-img" src="http://d9hhrg4mnvzow.cloudfront.net/enem.tarefa.co/pag-ok/de9e1065-screen-shot-2015-09-04-at-5-52-14-pm_02601y01y01y004000.png">
+                <h4 class="card-title">Sofia</h4>
+                <h6>Madrid</h6>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-block">
+                <p class="card-text">“Con Tarefa logré mejorar las notas de mi universidad.”</p>
+              </div>
+              <div class="card-user">
+                <img class="card-user-img" src="http://d9hhrg4mnvzow.cloudfront.net/enem.tarefa.co/pag-ok/068d68fa-screen-shot-2015-09-04-at-5-50-22-pm_01y01z01y01y000000.png">
+                <h4 class="card-title">Marta</h4>
+                <h6>Sevilla</h6>
+              </div>
+            </div>
+          </div>
+        </div>
 
+        <div class="row footer-msg text-right">
+          <p class="footer-msg-1"> Miles de profesores están disponibles para ayudarte.</p>
+          <p class="footer-msg-2">¿Que estas esperando para aprender matemáticas hoy?</p>
+        </div>
 
-					</div>
-				</div>
+      </div>
 
-				<div class="small-12 medium-4 large-4 columns">
-					<div class="pricing" data-equalizer-watch>
-						<div class="planName">
-							<h3>Plan Mensual!</h3>
-						</div>
-						<div class="planPrice">
-							<p>USD &#36;14.99/ mes</p>
-						</div>
-						<div class="planDetails">
-						<p>Obtenga respuestas cuando quiera!<br/> Ayuda ilimitada y acceso total por<br/> 1 meses <br/>   </p>
-						</div>
-						
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="TH7KD7W97R43W">
-<input type="image" src="http://i1309.photobucket.com/albums/s635/tarefasimple/hola_zps5vdgrfoa.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+      <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
+      <script src="js/vendor/bootstrap.min.js"></script>
 
-					</div>
-				</div>
-								
-			</div>
-		</div>
-		<!-- Pricing Tables Section End -->
+      <script src="js/main.js"></script>
 
-
-
-
-		
-
-		<footer class="black">
-			<!-- Footer First Row -->
-			<div class="row clearfix">
-				<!-- Copyright Info -->
-				<span class="copyright small-12 large-4 columns">Copyright &copy 2015 | Made with &hearts; Tarefa</span>
-				<!-- Footer Navigation Links-->
-				<span class="footerNav small-12 large-4 columns">
-					<!-- Replace with your email -->
-					<!-- <a href="http://www.tarefa.co/static_pages/about_us" target="_blank" title="E-mail Us">Tarefa </a>| -->
-					<a href="http://blog.tarefa.co/en"  target="_blank" title="Affiliates"> Blog </a>|
-					<a href="http://teachers.tarefa.co" target="_blank" title="Privacy Policy"> Profesores </a>|
-					
-				</span>
-			</div>
-			<!-- Footer Second Row -->
-			
-		</footer>
-
-		<script src="//load.sumome.com/" data-sumo-site-id="d5a30f20953cc0a9c28e1dd99612baaf9d42129dc7a55bb41229e7543a8b552e" async="async"></script>
-
-		
-
+   
+    </body>
 </html>
+
+
